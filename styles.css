@@ -42,20 +42,26 @@ body {
 }
 
 .content {
-    display: flex;
+    /* display: flex;
+    flex-direction: column; */
     background: white;
     padding: 0px 20px;
 }
 
 .content section {
-    width: 50%;
-}
-
+    margin: 0px 20px 20px 0;
+  }
+  
 .content > section > h1{
     text-transform: uppercase;
     color: #313c4e;
     margin-bottom: 15px;
     
+}
+
+.left-side, .right-side {
+    display: inline-block;
+    width: 48%;
 }
 
 .job-title {
@@ -73,4 +79,20 @@ body {
     justify-content: space-between;
     font-weight: lighter;
 }
-   
+
+.description {
+    color: #7c7c7c;
+}
+
+.skills-list ul{
+    list-style: none;
+}
+
+.skills-list div {
+    display: inline-block;
+    background: #989da6;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    margin: 0px 2px 5px 0px;
+}
