@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: #313b47;
+    min-width: 920;
+}
+
+.wrapper {
+    width: 75%;
+    margin: auto;
+    border: 1px solid #575f6b
+}
+
+.header {
+    background: white;
+    padding: 20px;
+}
+
+.title {
+    color: #313c4e;
+}
+
+.contacts {
+    display: flex;
+    flex-wrap: wrap;
+    /* background: #425061; */
+    /* background: #313c4e; */
+    color: white;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+
+.contacts div {
+    padding:5px;
+}
+
+.contacts i {
+    padding:5px
+}
+
+.content {
+    display: flex;
+    background: white;
+    padding: 0px 20px;
+}
+
+.content section {
+    width: 50%;
+}
+
+.content > section > h1{
+    text-transform: uppercase;
+    color: #313c4e;
+    margin-bottom: 15px;
+    
+}
+
+.job-title {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.company-name {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.date-and-location {
+    display: flex;
+    justify-content: space-between;
+    font-weight: lighter;
+}
+   
